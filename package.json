@@ -1,0 +1,52 @@
+{
+  "name": "easybot",
+  "version": "1.7.2",
+  "description": "Le meilleur module pour créer un bot français multifonction spécialement conçu pour votre serveur en un rien de temps...",
+  "main": "./src/bot.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeziotech/discord-music.git"
+  },
+  "keywords": [
+    "music",
+    "discord",
+    "discord-music",
+    "discord-backup",
+    "discord-multifonction",
+    "fr",
+    "bot",
+    "music-bot",
+    "discord-bot-tools",
+    "easy-bot",
+    "easy",
+    "ae",
+    "zio",
+    "tech",
+    "aeziotech",
+    "economy",
+    "money"
+  ],
+  "author": "Ae Zio-Tech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeziotech/discord-music/issues"
+  },
+  "homepage": "https://github.com/aeziotech/discord-music#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.3.1",
+    "fs": "0.0.1-security",
+    "hexacolors": "^1.1.1",
+    "node-fetch": "^2.6.1",
+    "opusscript": "0.0.7",
+    "quick.db": "^7.1.2",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.3.0"
+  }
+}
