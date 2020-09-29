@@ -45,7 +45,7 @@ client.login('NzU5ODE4MjM5NjI1Nzg5NDY5.X3DB4Q.RsLA5UErXu71WPeugezFGGfIgLM'); // 
 
 ## 🤖 Commandes
 
-### 🎶  <span style=#735BC1>Musique</span>
+### 🎶  <span style="colors: #735BC1;">Musique</span>
 * **PLAY**
     * `play`,
     * `add`,
@@ -94,5 +94,5 @@ client.login('NzU5ODE4MjM5NjI1Nzg5NDY5.X3DB4Q.RsLA5UErXu71WPeugezFGGfIgLM'); // 
     * `queue`,
     * `q`
 
-### 💰 <span style="#FFB900">]Economie</span>
+### 💰 <span style="colors: #FFB900;">Economie</span>
 
