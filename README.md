@@ -1,10 +1,21 @@
-const Discord = require('discord.js'); // discord.js requis
-const client = new Discord.Client(); // Création du client
+[![NPM](https://nodei.co/npm/easybot.png)](https://nodei.co/npm/easybot/)
+
+# 🧰 EasyBot
+
+## 📥 Installation
+```
+npm i easybot
+```
+
+## 💻 Exemple
+```js
+const Discord = require('discord.js'); // Require discord.js
+const client = new Discord.Client(); // Create the bot client.
 const { EasyMusic, EasyEconomy } = require('easybot');
 
 const musicBot = new EasyMusic({
     clientPrefix: ">>", // Préfix du bot musique
-    youtubeApiKey: "YOUTUBE_API_KEY", // Clé d'API Youtube
+    youtubeApiKey: "AIzaSyBNlvN2na4_rfKA2tPqeG71i6KPNZdIXmM", // Clé d'API Youtube
     discordClient: client, // Ne pas toucher,
     config: {
         helpCommand: true
@@ -29,4 +40,83 @@ client.on('message', message => { // Ne pas toucher
     economyBot.onMessage(message);
 });
 
-client.login('BOT_TOKEN'); // Mettez ici le token de votre bot (à trouver sur: https://discord.com/developers/applications/)
+client.login('NzU5ODE4MjM5NjI1Nzg5NDY5.X3DB4Q.RsLA5UErXu71WPeugezFGGfIgLM'); // Mettez ici le token de votre bot (https://discord.com/developers/applications/)
+```
+
+## 🤖 Commandes
+
+### 🎶  <span style="colors: #735BC1;">Musique</span>
+* **PLAY**
+    * `play`,
+    * `add`,
+    * `p`,
+    * **+ `<recherche par chaine de caractère | URL de la vidéo>`**
+
+* **STOP**
+    * `stop`,
+    * `kill`,
+    * `destroy`,
+* **PAUSE**
+    * `pause`,
+* **RESUME**
+    * `resume`,
+    * `res`,
+    * `play`,
+    * `p`
+* **SKIP**
+    * `skip`,
+    * `s`
+* **NOW-PLAY**
+    * `now-play`,
+    * `np`
+* **CLEAR**
+    * `clear`,
+    * `delete-queue`
+* **REPEAT**
+    * `repeat`,
+    * `loop`
+* **LEAVE**
+    * `leave`,
+    * `disconnect`
+* **JOIN**
+    * `join`,
+    * `connect`
+* **LYRICS**
+    * `lyrics`,
+    * `paroles`,
+    * `text`
+    * **+ `<recherche par chaine de caractère>`**
+* **VOLUME**
+    * `volume`,
+    * `vol`,
+    * `setVolume`
+* **QUEUE**
+    * `queue`,
+    * `q`
+
+### 💰 <span style="colors: #FFB900;">Economie</span>
+*   **MONEY**
+    * `money`,
+    * `balance`,
+    * `bal`,
+    * + **[@member | member ID]**
+*   **WITHDRAW**
+    * `withraw`,
+    * `with`,
+    * **+ `<montant>`**
+*   **DEPOSIT**
+    * `deposit`,
+    * `dep`,
+    * **+ `<montant>`**
+*   **ADD-MONEY**
+    * `add-money`
+    * **+ `<@member | member ID>`**
+    * **+ `<bank/cash>`**
+    * **+ `<montant>`**
+    * **+ `Permission Gérer le serveur`**
+*   **REMOVE-MONEY**
+    * `remove-money`
+    * **+ `<@member | member ID>`**
+    * **+ `<bank/cash>`**
+    * **+ `<montant>`**
+    * **+ `Permission Gérer le serveur`**
