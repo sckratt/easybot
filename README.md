@@ -18,7 +18,7 @@ const musicBot = new EasyMusic({
     youtubeApiKey: "YOUTUBE_API_KEY", // Clé d'API Youtube
     discordClient: client, // Ne pas toucher,
     config: {
-        helpCommand: true
+        helpCommand: true // true: le bot enverra la liste des commandes | false: Le bot ne répondra à la commande "help"
     }
 });
 const economyBot = new EasyEconomy({
