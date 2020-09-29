@@ -15,7 +15,7 @@ const { EasyMusic, EasyEconomy } = require('easybot');
 
 const musicBot = new EasyMusic({
     clientPrefix: ">>", // Préfix du bot musique
-    youtubeApiKey: "AIzaSyBNlvN2na4_rfKA2tPqeG71i6KPNZdIXmM", // Clé d'API Youtube
+    youtubeApiKey: "YOUTUBE_API_KEY", // Clé d'API Youtube
     discordClient: client, // Ne pas toucher,
     config: {
         helpCommand: true
@@ -40,7 +40,7 @@ client.on('message', message => { // Ne pas toucher
     economyBot.onMessage(message);
 });
 
-client.login('NzU5ODE4MjM5NjI1Nzg5NDY5.X3DB4Q.RsLA5UErXu71WPeugezFGGfIgLM'); // Mettez ici le token de votre bot (https://discord.com/developers/applications/)
+client.login('BOT_TOKEN'); // Mettez ici le token de votre bot (https://discord.com/developers/applications/)
 ```
 
 ## 🤖 Commandes
