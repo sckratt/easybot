@@ -95,4 +95,28 @@ client.login('NzU5ODE4MjM5NjI1Nzg5NDY5.X3DB4Q.RsLA5UErXu71WPeugezFGGfIgLM'); // 
     * `q`
 
 ### 💰 <span style="colors: #FFB900;">Economie</span>
-
+*   **MONEY**
+    * `money`,
+    * `balance`,
+    * `bal`,
+    * + **[@member | member ID]**
+*   **WITHDRAW**
+    * `withraw`,
+    * `with`,
+    * **+ `<montant>`**
+*   **DEPOSIT**
+    * `deposit`,
+    * `dep`,
+    * **+ `<montant>`**
+*   **ADD-MONEY**
+    * `add-money`
+    * **+ `<@member | member ID>`**
+    * **+ `<bank/cash>`**
+    * **+ `<montant>`**
+    * **+ `Permission Gérer le serveur`**
+*   **REMOVE-MONEY**
+    * `remove-money`
+    * **+ `<@member | member ID>`**
+    * **+ `<bank/cash>`**
+    * **+ `<montant>`**
+    * **+ `Permission Gérer le serveur`**
