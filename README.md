@@ -120,3 +120,10 @@ client.login('BOT_TOKEN'); // Mettez ici le token de votre bot (https://discord.
     * **+ `<bank/cash>`**
     * **+ `<montant>`**
     * **+ `Permission Gérer le serveur`**
+*   **ROB**
+    * `rob`,
+    * **+ `<@member | member ID>`**
+*   **LEADERBOARD**
+    * `leaderboard`,
+    * `lb`,
+    * **+ `[cash/bank]`**
